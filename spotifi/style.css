@@ -1,0 +1,380 @@
+body{
+    
+    margin:0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+#Super_main{
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+#sez1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 0.5%;
+}
+#div1{
+    padding: 6%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+}
+#spotify_logo{
+    color: rgb(255, 255, 255);
+    
+    font-size: 25px;
+    
+}
+#spotify{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#home_logo{
+    margin-top: 6%;
+    color: rgb(161, 153, 153);
+    font-size: 20px;
+}
+#home:hover{
+    color: #e9e3e3;
+}
+.home{
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+.home:hover{
+    color: #e9e3e3;
+}
+#div2{
+    margin-top: 2%;
+    height:560px;
+    padding: 2% 3%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+}
+#Home_logo{
+    margin-left: 3%;
+    margin-top: 6%;
+    color: rgb(161, 153, 153);
+    font-size: 20px;
+
+}
+#Home{
+    
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+#plus{
+    margin-left:38%;
+    color: rgb(161, 153, 153);
+    font-size: 20px;
+}
+#crea_playlist{
+    margin-top: 5%;
+    background-color: #242424;
+    height: 17%;
+    border-radius: 10px;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column ;
+
+}
+#crea_scritta{
+    color: white;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#crea_scritta2{
+    margin-top: 5%;
+    color: white;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#button_1{
+    margin-top: 7%;
+    border: none;
+    border-radius: 20px;
+    height: 30%;
+    width: 40%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#button_2{
+    margin-top: 7%;
+    border: none;
+    border-radius: 20px;
+    height: 30%;
+    width: 50%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#button_2:hover{
+    background-color: #e9e3e3;
+    height: 32%;
+    width: 52%;
+}
+#button_1:hover{
+    background-color: #e9e3e3;
+    height: 32%;
+    width: 42%;
+}
+#riconoscimenti{
+    margin-top: 12%;
+    margin-left: 3%;
+    height: 20%;
+}
+.note{
+    margin-left: 3%;
+    color: #939191;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+#italiano{
+    margin-top: 10%;
+    margin-left: 6%;
+    height: 5%;
+    width: 30%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(110, 110, 110);
+    border-width: 1px;
+    border-style:solid;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sez2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#colorato{
+    background-color: rgb(17, 17, 17);
+    margin-top: 0.5%;
+    height: 60px;
+    
+}
+#left{
+    margin: 2% 2%;
+    color: rgb(110, 110, 110);
+    
+}
+#right{
+    margin-left:0%;
+    color: rgb(110, 110, 110);
+}
+#iscriviti{
+    margin-left: 70%;
+    text-decoration: none;
+    color: #9a9999;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#iscriviti:hover{
+    color: white;
+}
+#accedi{
+    margin-left: 3%;
+    height: 80%;
+    width: 12%;
+    border-radius: 30px;
+    border-width: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}
+#accedi:hover{
+    height: 86%;
+    width: 12.3%;
+    background-color: #e9e9e9;
+}
+#artisti{
+    width: 96%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(0deg, rgb(14, 14, 14), rgb(30, 29, 29));
+}
+#primo{
+    display: flex;
+    flex-direction: row;
+}
+#popolari{
+    color: white;
+    
+    text-decoration: none;
+    font-size: 150%;
+}
+#popolari:hover{
+    text-decoration: underline;
+}
+#mostra{
+    margin-left:72%;
+    text-decoration: none;
+    color: #939191;
+}
+#mostra:hover{
+    text-decoration: underline;
+}
+#secondo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.arte{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    
+}
+.arte:hover{
+    background-image: linear-gradient(180deg, rgb(25, 25, 25), rgb(30, 29, 29));
+}
+.immagini{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+   
+    width: 100%;
+    height: 60%;
+}
+
+.sunshine{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0px 10px 5px #141414;
+}
+.nome_artista{
+    margin-top: 10%;
+    margin-left: 4%;
+    color: #e6e2e2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.artista{
+    margin-top: 10%;
+    margin-left: 4%;
+    color: #848383;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+    
+}
+#terzo{
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#altro{
+    height: 70%;
+    width: 75%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.dentro_altro{
+    display: flex;
+    flex-direction: column;
+}
+.primo_altro{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+ 
+
+}
+.resto_altro{
+    text-decoration: none;
+    margin-top: 5%;
+    color:#848383;
+}
+.resto_altro:hover{
+    color:#B3B3B3;
+    text-decoration: underline;
+}
+#main_icone{
+    height: 15%;
+    width: 15%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    text-decoration: none;
+}
+.icone{
+    height: 100%;
+    width: 75%;
+    
+    text-decoration: none;
+    background-color: #2e2d2d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icone:hover{
+    background-color: #848383;
+    
+    text-decoration: none;
+}
+#b_r{
+    background-color: rgba(255, 255, 255, 0.071);
+    width: 100%;
+    height: 1px;
+}
+#terms{
+    color:#848383;
+    margin-top: 4%;
+}
+#footer{
+    height: 100%;
+    width: 98%;
+    padding: 0.9% 1%;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#anteprima{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#anteprima2{
+    font-size: 95%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#iscriviti_gratis{
+    height: 55px;
+    width: 12%;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 28%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}
